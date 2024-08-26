@@ -33,6 +33,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.editor.inc-rename" },
     -- util plugins
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
+    -- test plugins
+    { import = "lazyvim.plugins.extras.test.core" },
     -- import/override with your plugins
     { import = "plugins" },
   },
