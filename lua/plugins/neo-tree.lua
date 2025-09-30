@@ -7,6 +7,9 @@ return {
         auto_expand_width = 50,
       },
       filesystem = {
+        follow_current_file = {
+          enabled = true,
+        },
         filtered_items = {
           visible = true,
           hide_dotfiles = false,
